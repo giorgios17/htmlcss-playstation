@@ -3,7 +3,6 @@
     border-radius: 15px !important;
 }
 
-
 /* generic */
 body{
     font-family: 'Montserrat', sans-serif;
@@ -49,3 +48,12 @@ body{
     background-repeat: no-repeat;
 }
 
+/* playstationplus */
+#playstationplus{
+    background-color: #bebcbb;
+}
+
+.gs-bg-plusbtn{
+    background-color: #d9dadc !important;
+    border-color: #d9dadc !important;
+}
