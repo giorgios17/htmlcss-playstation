@@ -62,3 +62,25 @@ body{
 #playstationnow{
     background-color: #161c3b;
 }
+
+/* footer */
+footer{
+    background-color: #00439c;
+}
+
+#language-img{
+    width: 20px;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#sie-logo{
+    width: 200px;
+}
