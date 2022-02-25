@@ -4,6 +4,7 @@
 }
 
 /* generic */
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -26,7 +27,9 @@ body{
     padding-top: 300px;
 }
 
-
+header{
+    background-color: white;
+}
 
 /* CONTENT */
 
@@ -37,6 +40,7 @@ body{
     background-size: cover;
     background-position:bottom;
     background-repeat: no-repeat;
+    margin-top: 150px;
 }
 
 /* game on evidence */
