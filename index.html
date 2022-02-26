@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/c2f6360f22.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/play_logo.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -28,59 +29,55 @@
                     <img class="gs-w-100" src="img/sony_logo.svg" alt="logo sony">
                 </div>
             </div>
-            <!-- play logo e nav -->
-            <div class="row justify-content-between py-3">
-                <div class="col-auto">
-                    <img src="img/play_logo.svg" alt="playstation logo">
-                </div>
-                <div class="col-auto">
-
-                    <!-- nav -->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#"></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Dropdown
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" href="#" tabindex="-1"
-                                            aria-disabled="true">Disabled</a>
-                                    </li>
-                                </ul>
-                                <form class="d-flex">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
-                            </div>
+            <!-- nav -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="playstation logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Giochi <i
+                                        class="fas fa-chevron-down fa-xs"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Hardware <i
+                                        class="fas fa-chevron-down fa-xs"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Servizi <i
+                                        class="fas fa-chevron-down fa-xs"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Novit&aacute; <i
+                                        class="fas fa-chevron-down fa-xs"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Fai acquisti <i
+                                        class="fas fa-chevron-down fa-xs"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Supporto <i
+                                        class="fas fa-chevron-down fa-xs"></i></a>
+                            </li>
+                        </ul>
+                        <div class="d-flex navbar-nav align-items-center justify-content-between">
+                            <a class="nav-link text-dark ms-3" aria-current="page" href="#">My Playstation
+                                <i class="fas fa-chevron-down fa-xs"></i></a>
+                            <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                            <a href="#">
+                                <img id="lens" src="img/lens.svg" alt="search">
+                            </a>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
 
@@ -90,7 +87,7 @@
         <!-- jumbotron -->
         <section id="jumbotron">
             <div class="container-fluid  text-white">
-                <div class="row pb-5 gy-3 gs-ptop300">
+                <div class="row pb-5 gy-3">
                     <div class="col-6">
                         <img class="gs-w-250" src="img/returnal-hero-banner-logo.png" alt="banner returnal">
                     </div>
@@ -112,26 +109,29 @@
         <!-- thumbnails -->
         <section id="thumnails">
             <div class="container">
-                <div class="row py-4 gy-4">
+                <div class="row py-5 gy-4">
                     <div class="col-6 col-sm-4 col-xl-2">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-3" alt="returnal">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-3 gs-thumb"
+                            alt="returnal">
                     </div>
                     <div class="col-6 col-sm-4 col-xl-2">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-3"
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-3 gs-thumb"
                             alt="ratcheteclank">
                     </div>
                     <div class="col-6 col-sm-4 col-xl-2">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-3" alt="returnal">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-3 gs-thumb"
+                            alt="returnal">
                     </div>
                     <div class="col-6 col-sm-4 col-xl-2">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-3"
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-3 gs-thumb"
                             alt="ratcheteclank">
                     </div>
                     <div class="col-6 col-sm-4 col-xl-2">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-3" alt="returnal">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-3 gs-thumb"
+                            alt="returnal">
                     </div>
                     <div class="col-6 col-sm-4 col-xl-2">
-                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-3"
+                        <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-3 gs-thumb"
                             alt="ratcheteclank">
                     </div>
                 </div>
@@ -182,16 +182,20 @@
                             class="figure-img img-fluid border-bottom border-primary border-2" alt="playstion-5">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/joypad-thumb.png" class="figure-img img-fluid rounded opacity-50" alt="joypad5">
+                        <img src="img/joypad-thumb.png" class="figure-img img-fluid opacity-50 gs-accessory-opacity"
+                            alt="joypad5">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/headset-thumb.png" class="figure-img img-fluid rounded opacity-50" alt="headset">
+                        <img src="img/headset-thumb.png" class="figure-img img-fluid opacity-50 gs-accessory-opacity"
+                            alt="headset">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/remote-thumb.png" class="figure-img img-fluid rounded opacity-50" alt="remote">
+                        <img src="img/remote-thumb.png" class="figure-img img-fluid opacity-50 gs-accessory-opacity"
+                            alt="remote">
                     </div>
                     <div class="col-4 col-md-2">
-                        <img src="img/camera-thumb.jpg" class="figure-img img-fluid rounded opacity-50" alt="camera">
+                        <img src="img/camera-thumb.jpg" class="figure-img img-fluid opacity-50 gs-accessory-opacity"
+                            alt="camera">
                     </div>
                 </div>
             </div>
