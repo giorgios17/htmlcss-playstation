@@ -5,12 +5,20 @@
 
 /* generic */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
 nav .fa-chevron-down{
     color: #bebcbb;
+}
+
+.gs-start{
+    position: initial;
 }
 
 /* utility */
@@ -37,10 +45,23 @@ header{
 
 /* CONTENT */
 
+/* HEADER */
+
 /* nav */
+
+.gs-dropdown-mod{
+    top: 90% !important;
+    border: 0!important;
+    border-radius: 0!important;
+}
+
 #lens{
     width: 30px;
     margin-left: 10px;
+}
+
+#play-ico{
+    width: 70px;
 }
 
 /* jumbotron */
@@ -56,7 +77,8 @@ header{
 
 /* thumbnails */
 .gs-thumb{
-    transition: all 0.3s linear;
+    transition: transform 0.3s linear;
+    padding: 2px;
 }
 
 /* game on evidence */
@@ -110,6 +132,7 @@ footer ul li a{
 .gs-thumb:hover{
     transform: translateY(-30px);
     cursor: pointer;
+    outline: 3px solid blue;
 }
 
 .gs-accessory-opacity:hover{
@@ -117,3 +140,28 @@ footer ul li a{
     cursor: pointer;
     border-bottom: 3px solid #0d6efd;
 }
+
+.play-ico-container:hover{
+    border: 1px solid #bebcbb;
+}
+
+#onhover-section li a:hover{
+    color: blue;
+}
+
+nav button:hover,
+#accessories button:hover,
+#explore-playstation button:hover,
+#playstationplus button:hover{
+    outline: white solid 2px;
+    outline-offset: -5px;
+}
+
+#jumbotron button:hover,
+#it-takes-two button:hover,
+#playstationnow button:hover{
+    outline: black solid 2px;
+    outline-offset: -5px;
+}
+
+
